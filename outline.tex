@@ -1,0 +1,30 @@
+\documentclass[letterpaper,titlepage]{article}
+\pagestyle{headings}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{\S\ \thesection}{1em}{}
+\begin{document}
+
+\title{Constitutional Law}
+\author{Joseph Mornin\\Berkeley Law School\\joseph@mornin.org}
+\date{Spring 2013\\Prof. Haney-L\'{o}pez}
+\maketitle
+\tableofcontents
+\pagebreak
+
+\include{sections/interpreting-the-constitution.tex}
+\include{sections/constitutional-crises.tex}
+\include{sections/the-modern-constitution.tex}
+\include{sections/national-power.tex}
+
+\end{document}
